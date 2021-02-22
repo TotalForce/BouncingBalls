@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncing balls</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body id="body">
+    <h1>hi there</h1>
+    
+   
+    
+    <form id="interBalls">
+     <input type="text" name="addBalls" id="addsubBalls">
+    </form>
+     <button type="button" name="add" value="Add" onclick="addBalls()">Add</button>
+     <button type="button" name="substract" value="substract" onclick="subBalls()">Substract</button>
+     
+     <button type="button" onclick="paused()">pause</button>
+     <button type="button" onclick="back()">back</button>
+     <button type="button" onclick="forward()">forward</button>
+    <!--
+    CreatorMode /random or stats/
+    DestroyerMode
+    ExploreMode
+    MoveMod
+    
+    ActivatePlayer(mouse\keys)
+    
+    -->
+     <button type="button" onclick="CreateMode()">CreateMode</button>
+     <button type="button" onclick="DestroyMode()">DestroyMode</button>
+     <button type="button" onclick="ExploreMode()">ExploreMode</button>
+     <button type="button" onclick="divis()">Divisible</button>
+     <button type="button" onclick="vampire()">VampireAdd</button>
+     <button type="button" onclick="player()">PlayerAdd</button>
+     <button type="button" onclick="MoveMouse()">MouseOn</button>
+     
+     <canvas id="myCanvas"></canvas>
+     <p>ListPanel</p>
+     
+    <script src="main.js"></script>
+    <script src="interface.js"></script>
+  </body>
+
+</html>
