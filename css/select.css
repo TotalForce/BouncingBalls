@@ -1,0 +1,40 @@
+ .select {
+	 user-select: none;
+ }
+
+ .select_options {
+     background: #fff;
+     transition: all 0.5s;
+     opacity: 0;
+	 display: none;
+     pointer-events: none;
+     z-index: 2;
+}
+ .select.open .select_options {
+     opacity: 1;
+     display: flex;
+	 flex-direction: column;
+	 align-items: center;
+     pointer-events: all;
+}
+ .select_option {
+     padding: 0 22px 0 22px;
+     font-size: 22px;
+     font-weight: 300;
+     color: #3b3b3b;
+     line-height: 60px;
+     cursor: pointer;
+     transition: all 0.5s;
+	 
+	  z-index: 2;
+	
+}
+ .select_option:hover {
+     cursor: pointer;
+     background-color: #b2b2b2;
+}
+ .select_option.selected {
+     color: #ffffff;
+     background-color: #305c91;
+}
+

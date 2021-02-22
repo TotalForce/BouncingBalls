@@ -5,8 +5,35 @@
     <meta charset="utf-8">
     <title>Bouncing balls</title>
 <link rel="stylesheet" href=" css/style.css">
+ <link type="text/css" rel="stylesheet" href="css/select.css" />
   </head>
-
+<header>  
+	<div class="select">
+        <div class="select_trigger">
+		   <form action="https://totalforce.github.io/">
+		    <input class="button" type="submit" value="HOME" />
+		   </form>
+	    </div>
+        <div class="select_options">
+        </div>
+    </div>
+	<div class="select">
+        <div class="select_trigger">
+		   <button>WEB</button>
+        </div>
+        <div class="select_options">
+            <span class="select_option" onclick="location.href='https://totalforce.github.io/BouncingBalls/'" data-value="BouncingBalls">Bouncing Balls</span>
+        </div>
+    </div>
+	<div class="select">
+        <div class="select_trigger">
+		   <button>ANDROID</button>
+        </div>
+        <div class="select_options">
+            <span class="select_option" onclick="location.href='https://totalforce.github.io/MoonlightAdventure/'" data-value="MoonlightAdventure">Moonlight Adventure</span>
+        </div>
+    </div>
+ </header>
   <body id="body">
     <h1>hi there</h1>
     
@@ -43,6 +70,7 @@
      
     <script src="js/main.js"></script>
     <script src="js/interface.js"></script>
+	<script src="js/select.js"></script>
   </body>
 
 </html>
