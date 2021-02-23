@@ -23,7 +23,19 @@ h1 {
   right: 5px;
   color: transparent;
   text-shadow: 0 0 2px white;
+}
 
+@media only screen and (max-width: 720px) {
+ h1 {
+   font-size: 30px;
+   letter-spacing: -1px;
+   position: absolute;
+   margin: 0;
+   top: 4px;
+   right: 5px;
+   color: transparent;
+   text-shadow: 0 0 2px white;
+ }
 }
 
 canvas {
