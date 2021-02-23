@@ -11,23 +11,27 @@ html {
 body {
   overflow: hidden;
   height: inherit;
+  background-color: black ;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 70px;
   letter-spacing: -1px;
   position: absolute;
   margin: 0;
   top: 4px;
   right: 5px;
   color: transparent;
-  text-shadow: 0 0 4px white;
+  text-shadow: 0 0 2px white;
+
 }
 
 canvas {
-// height: 80vh;
+/* height: 80vh;
 // width: 80vw;
- //display: block;
+ //display: block;*/
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 p {
@@ -35,4 +39,32 @@ background-color: blue;
 position: absolute;
 top: 30px;
 left: 0px;
+}
+
+
+header {
+ display: flex;
+ justify-content: center;
+ flex-direction: row; 
+	
+}
+
+button, .button {
+ background-color: black;
+ color: white;
+ padding: 10px 5px 10px 5px;
+ 
+ border: none;
+ 
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+ 
+ 
+ transition-duration: 0.4s;
+}
+
+button:hover, .button:hover{
+ background-color:  white;
+ color: black;
 }
