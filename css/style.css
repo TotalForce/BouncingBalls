@@ -25,7 +25,7 @@ h1 {
   text-shadow: 0 0 2px white;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen {
  h1 {
    font-size: 30px;
    letter-spacing: -1px;
